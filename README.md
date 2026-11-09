@@ -44,15 +44,6 @@ An exploratory analysis of a 10,000-record US healthcare dataset using Microsoft
 ## Business relevance
 This project demonstrates how healthcare operations data can be summarized to support exploratory monitoring of billing patterns, admission mix, and length of stay. These are descriptive findings only; they do not establish clinical or causal relationships.
 
-## Repository structure
-```
-US-Healthcare-Data-Analysis/
-├── README.md
-└── assets/
-    ├── healthcare_dashboard.png
-    └── key_insights.png
-```
-
 ## About me
 I am transitioning into Data Analytics after four years of experience in AC compressor manufacturing. I am developing my skills in Excel, Power BI, SQL, and Python and building practical projects to demonstrate my analytical and problem-solving abilities.
 
