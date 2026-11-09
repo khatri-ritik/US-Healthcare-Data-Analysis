@@ -11,6 +11,16 @@
 
 **Dataset notice:** All records are synthetic and intended for learning and portfolio demonstration. The findings are descriptive and should not be interpreted as clinical conclusions or evidence of causation.
 
+
+## 📈 Interactive-style dashboard preview
+
+The visual summary below brings together the headline KPIs, condition mix, average billing, admission patterns, insurance-provider volume, and age-segment distribution.
+
+<p align="center">
+  <img src="assets/healthcare_dashboard.svg" alt="US Healthcare analytics dashboard with KPI cards and charts" width="100%">
+</p>
+
+
 ---
 
 ## 📌 Executive summary
@@ -35,6 +45,11 @@ The analysis examines six medical-condition categories, three admission types, f
 | Exact duplicate rows | **0** |
 
 ## 🔍 Key business insights
+
+<p align="center">
+  <img src="assets/key_insights.svg" alt="Four headline healthcare analytics findings" width="100%">
+</p>
+
 
 ### 1. Medical condition analysis
 
