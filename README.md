@@ -1,137 +1,76 @@
-# US Healthcare Data Analysis | Excel Portfolio Project
+# 🇺🇸 US Healthcare Data Analysis | Excel Portfolio Project
 
-![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?logo=microsoft-excel&logoColor=white)
-![Dataset](https://img.shields.io/badge/Records-10%2C000-blue)
-![Status](https://img.shields.io/badge/Project-Completed-success)
-![Data](https://img.shields.io/badge/Data-Synthetic-brightgreen)
+An end-to-end exploratory data analysis project using **Microsoft Excel** to examine 10,000 synthetic healthcare records. The analysis focuses on patient demographics, medical conditions, admission patterns, billing, insurance, and length of stay.
 
-An end-to-end exploratory analysis of **10,000 synthetic healthcare records** using Microsoft Excel. The project explores patient demographics, medical conditions, admission patterns, insurance providers, billing amounts, and length of hospital stay.
+> **Dataset note:** All records in this project are synthetic and are used for learning and portfolio demonstration. Findings are descriptive, not clinical conclusions or evidence of causation.
 
-> **Dataset note:** The workbook owner confirms that the data is synthetic. It is not real patient data and should not be used to make clinical decisions.
-
-## Dashboard preview
-
-![Healthcare analysis dashboard](assets/healthcare_dashboard.svg)
-
-![Key insights](assets/key_insights.svg)
-
-## Executive KPI snapshot
+## 📌 Project at a glance
 
 | KPI | Result |
 |---|---:|
-| Healthcare records analyzed | **10,000** |
+| Healthcare records | **10,000** |
+| Admission date range | **Oct 2018 – Oct 2023** |
 | Average patient age | **51.45 years** |
 | Average billing amount | **$23,381.11** |
-| Median billing amount | **$20,280.00** |
 | Average length of stay | **13.82 days** |
-| Female records | **5,075 (50.75%)** |
-| Male records | **4,925 (49.25%)** |
+| Female / Male records | **5,075 / 4,925** |
+| Total recorded billing | **$233.81 million** |
 
-## Key business insights
+## 🔎 Key insights
 
-### 1. Patient and condition mix
-- **Hypertension** is the most frequently recorded condition: **2,155 cases (21.55%)**.
-- Cancer accounts for **1,647 records**, followed by Obesity (1,627), Arthritis (1,587), Asthma (1,550), and Diabetes (1,434).
-- The dataset is relatively balanced by gender: 50.75% female and 49.25% male.
+1. **Hypertension is the most common condition:** 2,155 records (21.6% of the dataset).
+2. **Cancer has the highest average billing:** $39,676.54 per record, around 2.25× the hypertension average ($17,643.29).
+3. **Emergency admissions have the highest average billing:** $24,279.06, compared with $23,038.95 for Elective and $22,731.21 for Urgent admissions.
+4. **Emergency stays are longer:** 15.62 days on average, compared with 15.42 days for Urgent and 9.97 days for Elective admissions.
+5. **Medicare has the largest record count:** 2,428 (24.3%). Cigna has the highest average billing among providers at $24,225.83, narrowly above Aetna at $24,131.55.
+6. **Senior records have the highest average billing by age segment:** $23,891.09, versus $23,135.87 for Middle and $23,189.45 for Young.
+7. **Gender mix is broadly balanced:** Female records represent 50.75% and Male records 49.25%.
+8. **Age and billing are nearly uncorrelated in this dataset:** Pearson correlation is approximately 0.013. This is a descriptive pattern, not a causal finding.
 
-### 2. Billing patterns by medical condition
-| Medical condition | Records | Average billing |
-|---|---:|---:|
-| Cancer | 1,647 | **$39,676.54** |
-| Diabetes | 1,434 | $30,070.07 |
-| Asthma | 1,550 | $22,644.61 |
-| Arthritis | 1,587 | $20,055.06 |
-| Hypertension | 2,155 | $17,643.29 |
-| Obesity | 1,627 | **$12,535.69** |
+## 📊 Explore the detailed analysis
 
-Cancer has the highest average billing in this dataset, approximately **3.16×** the average billing for Obesity. This is a descriptive comparison, not evidence that the condition itself causes higher costs.
+See [INSIGHTS.md](INSIGHTS.md) for additional breakdowns, comparisons, interpretation notes, and portfolio-ready observations.
 
-### 3. Admission type and length of stay
-| Admission type | Records | Average billing | Average stay |
-|---|---:|---:|---:|
-| Emergency | 3,587 | **$24,279.06** | **15.62 days** |
-| Urgent | 3,336 | $22,731.21 | 15.42 days |
-| Elective | 3,077 | $23,038.95 | 9.97 days |
+## 🧰 Tools & skills demonstrated
 
-Emergency admissions have the highest average billing, while Emergency and Urgent admissions have longer average stays than Elective admissions. Emergency average stay is about **5.65 days longer** than Elective.
-
-### 4. Insurance provider snapshot
-| Insurance provider | Records | Average billing |
-|---|---:|---:|
-| Medicare | 2,428 | $22,942.94 |
-| Cigna | 1,939 | **$24,225.83** |
-| Aetna | 1,921 | $24,131.55 |
-| Blue Cross | 1,875 | $22,772.23 |
-| UnitedHealthcare | 1,837 | $22,905.37 |
-
-Medicare has the largest record count, while Cigna has the highest average billing among the providers in this dataset.
-
-### 5. Test-result distribution
-| Test result | Records | Share |
-|---|---:|---:|
-| Abnormal | 3,456 | 34.56% |
-| Inconclusive | 3,277 | 32.77% |
-| Normal | 3,267 | 32.67% |
-
-The three result categories are relatively evenly represented. The workbook does not provide clinical interpretation or outcome follow-up, so these counts should be treated only as descriptive.
-
-### 6. Age segment
-| Age segment | Records | Average billing |
-|---|---:|---:|
-| Young | 2,485 | $23,189.45 |
-| Middle | 4,444 | $23,135.87 |
-| Senior | 3,071 | $23,891.09 |
-
-Senior records show a modestly higher average billing in this sample. The difference is descriptive and does not establish an age-related causal effect.
-
-## Data preparation and Excel workflow
-
-The workbook contains a raw-data sheet, a cleaned/analysis-ready healthcare table, PivotTable summaries, advanced analysis, dashboard insights, and notes documenting data preparation.
-
-The documented preparation work includes:
-- Preserving a backup of the raw data.
-- Removing unnecessary columns.
-- Standardizing gender values (for example, `M` to `Male`).
-- Standardizing blood-group labels and positive/negative notation.
-- Standardizing admission labels (for example, `Emer` to `Emergency`).
-- Creating analysis fields such as age bucket, demographic segment, duration of stay, year, month, day, month name, and week of stay.
-
-Additional validation from the analysis-ready sheet:
-- **10,000 rows** and no exact duplicate rows detected.
-- No missing values in the main analysis fields reviewed.
-- Admission categories were normalized to Emergency, Urgent, and Elective.
-
-## Workbook structure
-
-- `Healthcare_Data` — cleaned, analysis-ready records.
-- `Main Sheet` — additional derived fields, including week-of-stay grouping.
-- `Pivot Insights`, `Sample Sale Analysis`, `Advance Ananlysis`, and `Insights` — summary and pivot-based analysis areas.
-- `Notes` — data-cleaning notes, category mappings, and analysis hypotheses.
-
-## Skills demonstrated
-
-- Excel data cleaning and standardization
-- PivotTables and summary analysis
-- KPI development
+- Microsoft Excel
+- Data cleaning and standardization
+- PivotTables and PivotCharts
+- KPI design and dashboard reporting
 - Descriptive statistics and segmentation
-- Billing and operational trend analysis
-- Dashboard storytelling and business communication
+- Exploratory data analysis and business storytelling
 
-## Repository contents
+## 🧹 Analysis workflow
 
-- [Dashboard preview](assets/healthcare_dashboard.svg)
-- [Key insights graphic](assets/key_insights.svg)
-- [Detailed analysis notes](ANALYSIS_INSIGHTS.md)
+1. Reviewed the raw data and working sheets.
+2. Standardized categorical values and prepared date, age-band, demographic-segment, and length-of-stay fields.
+3. Checked the 10,000-row analysis table for missing values and exact duplicate rows.
+4. Built PivotTable summaries for conditions, admission types, insurance providers, demographics, and billing.
+5. Compared average billing and stay duration across groups.
+6. Converted the results into concise operational observations.
 
-## Limitations
+## 💡 Potential business questions
 
-This is a synthetic dataset and the analysis is exploratory. Results describe patterns in this sample only. They do not establish causation, clinical effectiveness, provider quality, or real-world healthcare costs. The source workbook also contains a minimum recorded stay of zero days; interpret stay-duration averages with that data characteristic in mind.
+- Which conditions account for the largest share of admissions?
+- Which admission types are associated with higher average billing and longer stays?
+- How do billing averages vary by condition and insurance provider?
+- How is the patient population distributed by age and gender?
+- Which patterns could be monitored in a healthcare operations dashboard?
 
-## About the author
+## ⚠️ Interpretation & limitations
 
-**Ritik Khatri** — transitioning into Data Analytics after four years of experience in AC compressor manufacturing. Currently building practical skills in Excel, Power BI, SQL, and Python.
+- The dataset is synthetic; it does not represent real patients or actual healthcare provider performance.
+- Average billing is not the same as cost, reimbursement, profit, or patient out-of-pocket expense.
+- Group differences do not establish that a condition, admission type, insurer, age, or gender caused a billing or stay outcome.
+- The dataset contains repeated patient-name values; this analysis treats each row as a record and does not assume that each row represents a unique individual.
+- This project is for data analytics practice, not medical, financial, or policy decision-making.
 
-- GitHub: [@khatri-ritik](https://github.com/khatri-ritik)
+## 👨‍💻 About
+
+I am building my Data Analytics portfolio after four years of experience in AC compressor manufacturing. I am developing practical skills in Excel, Power BI, SQL, and Python, with a focus on turning raw operational data into clear, useful insights.
+
+**Author:** Ritik Khatri  
+**GitHub:** [khatri-ritik](https://github.com/khatri-ritik)
 
 ---
-If you find this project useful, feel free to ⭐ the repository.
+*If you find this project useful, feel free to explore the repository and share feedback.*
