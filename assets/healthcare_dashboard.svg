@@ -1,20 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
-<rect width="1200" height="700" rx="24" fill="#f4f7fb"/>
-<text x="52" y="62" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#14243a">US Healthcare Data Analysis</text>
-<text x="52" y="96" font-family="Arial,sans-serif" font-size="17" fill="#607087">Excel dashboard preview • 10,000 healthcare records</text>
-<g font-family="Arial,sans-serif">
-<g><rect x="52" y="128" width="250" height="112" rx="16" fill="#fff"/><text x="76" y="164" font-size="15" fill="#68778b">Records analyzed</text><text x="76" y="211" font-size="34" font-weight="700" fill="#1c5d91">10,000</text></g>
-<g><rect x="324" y="128" width="250" height="112" rx="16" fill="#fff"/><text x="348" y="164" font-size="15" fill="#68778b">Average age</text><text x="348" y="211" font-size="34" font-weight="700" fill="#1c5d91">51.45 yrs</text></g>
-<g><rect x="596" y="128" width="250" height="112" rx="16" fill="#fff"/><text x="620" y="164" font-size="15" fill="#68778b">Average billing</text><text x="620" y="211" font-size="34" font-weight="700" fill="#1c5d91">$23,381</text></g>
-<g><rect x="868" y="128" width="280" height="112" rx="16" fill="#fff"/><text x="892" y="164" font-size="15" fill="#68778b">Average length of stay</text><text x="892" y="211" font-size="34" font-weight="700" fill="#1c5d91">13.82 days</text></g>
-<rect x="52" y="264" width="540" height="380" rx="18" fill="#fff"/><text x="80" y="307" font-size="21" font-weight="700" fill="#1b2e46">Average billing by admission type</text>
-<line x1="110" y1="570" x2="550" y2="570" stroke="#cbd5e1" stroke-width="2"/>
-<g fill="#397eae"><rect x="145" y="373" width="82" height="197" rx="8"/><rect x="285" y="383" width="82" height="187" rx="8"/><rect x="425" y="390" width="82" height="180" rx="8"/></g>
-<g font-size="14" fill="#53657a" text-anchor="middle"><text x="186" y="596">Emergency</text><text x="326" y="596">Elective</text><text x="466" y="596">Urgent</text></g>
-<g font-size="14" fill="#1b2e46" text-anchor="middle" font-weight="700"><text x="186" y="357">$24,279</text><text x="326" y="367">$23,039</text><text x="466" y="374">$22,731</text></g>
-<rect x="612" y="264" width="536" height="380" rx="18" fill="#fff"/><text x="640" y="307" font-size="21" font-weight="700" fill="#1b2e46">Average stay by admission type</text>
-<line x1="666" y1="570" x2="1104" y2="570" stroke="#cbd5e1" stroke-width="2"/>
-<g fill="#4f9b83"><rect x="700" y="353" width="82" height="217" rx="8"/><rect x="840" y="356" width="82" height="214" rx="8"/><rect x="980" y="432" width="82" height="138" rx="8"/></g>
-<g font-size="14" fill="#53657a" text-anchor="middle"><text x="741" y="596">Emergency</text><text x="881" y="596">Urgent</text><text x="1021" y="596">Elective</text></g>
-<g font-size="14" fill="#1b2e46" text-anchor="middle" font-weight="700"><text x="741" y="337">15.62 days</text><text x="881" y="340">15.42 days</text><text x="1021" y="416">9.97 days</text></g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f8fc"/><stop offset="1" stop-color="#eaf0f8"/></linearGradient><style>
+.h{font:700 32px Arial,sans-serif;fill:#172b4d}.sub{font:15px Arial,sans-serif;fill:#64748b}.k{font:700 13px Arial,sans-serif;fill:#64748b;letter-spacing:1px}.v{font:700 29px Arial,sans-serif;fill:#172b4d}.ct{font:700 18px Arial,sans-serif;fill:#1e293b}.lab{font:14px Arial,sans-serif;fill:#475569}.val{font:700 13px Arial,sans-serif;fill:#334155}.foot{font:12px Arial,sans-serif;fill:#64748b}
+</style></defs>
+<rect width="1400" height="980" fill="url(#bg)"/>
+<text x="56" y="64" class="h">US HEALTHCARE DATA ANALYSIS</text><text x="58" y="94" class="sub">Excel portfolio dashboard • 10,000 synthetic records • 30 Oct 2018 – 30 Oct 2023</text>
+<g><rect x="56" y="124" width="300" height="112" rx="14" fill="#fff" stroke="#dce5f0"/><rect x="376" y="124" width="300" height="112" rx="14" fill="#fff" stroke="#dce5f0"/><rect x="696" y="124" width="300" height="112" rx="14" fill="#fff" stroke="#dce5f0"/><rect x="1016" y="124" width="328" height="112" rx="14" fill="#fff" stroke="#dce5f0"/>
+<text x="80" y="160" class="k">TOTAL RECORDS</text><text x="80" y="207" class="v">10,000</text><text x="400" y="160" class="k">TOTAL RECORDED BILLING</text><text x="400" y="207" class="v">$233.81M</text><text x="720" y="160" class="k">AVERAGE BILLING</text><text x="720" y="207" class="v">$23,381</text><text x="1040" y="160" class="k">AVERAGE LENGTH OF STAY</text><text x="1040" y="207" class="v">13.82 days</text></g>
+<rect x="56" y="260" width="630" height="320" rx="14" fill="#fff" stroke="#dce5f0"/><rect x="714" y="260" width="630" height="320" rx="14" fill="#fff" stroke="#dce5f0"/><rect x="56" y="604" width="630" height="300" rx="14" fill="#fff" stroke="#dce5f0"/><rect x="714" y="604" width="630" height="300" rx="14" fill="#fff" stroke="#dce5f0"/>
+<text x="82" y="300" class="ct">Patient records by medical condition</text><text x="740" y="300" class="ct">Average billing by medical condition</text><text x="82" y="644" class="ct">Admission type: billing and length of stay</text><text x="740" y="644" class="ct">Insurance provider and age segment mix</text>
+<g class="lab"><text x="82" y="348">Hypertension</text><text x="82" y="386">Cancer</text><text x="82" y="424">Obesity</text><text x="82" y="462">Arthritis</text><text x="82" y="500">Asthma</text><text x="82" y="538">Diabetes</text></g>
+<g fill="#2f6fed"><rect x="210" y="331" width="330" height="20" rx="5"/><rect x="210" y="369" width="252" height="20" rx="5"/><rect x="210" y="407" width="249" height="20" rx="5"/><rect x="210" y="445" width="243" height="20" rx="5"/><rect x="210" y="483" width="237" height="20" rx="5"/><rect x="210" y="521" width="219" height="20" rx="5"/></g>
+<g class="val" text-anchor="end"><text x="658" y="347">2,155</text><text x="658" y="385">1,647</text><text x="658" y="423">1,627</text><text x="658" y="461">1,587</text><text x="658" y="499">1,550</text><text x="658" y="537">1,434</text></g>
+<g class="lab"><text x="740" y="348">Cancer</text><text x="740" y="386">Diabetes</text><text x="740" y="424">Asthma</text><text x="740" y="462">Arthritis</text><text x="740" y="500">Hypertension</text><text x="740" y="538">Obesity</text></g>
+<g fill="#12a88a"><rect x="858" y="331" width="390" height="20" rx="5"/><rect x="858" y="369" width="296" height="20" rx="5"/><rect x="858" y="407" width="223" height="20" rx="5"/><rect x="858" y="445" width="198" height="20" rx="5"/><rect x="858" y="483" width="174" height="20" rx="5"/><rect x="858" y="521" width="123" height="20" rx="5"/></g>
+<g class="val" text-anchor="end"><text x="1318" y="347">$39,677</text><text x="1318" y="385">$30,070</text><text x="1318" y="423">$22,645</text><text x="1318" y="461">$20,055</text><text x="1318" y="499">$17,643</text><text x="1318" y="537">$12,536</text></g>
+<g class="lab"><text x="82" y="695">Emergency</text><text x="82" y="757">Urgent</text><text x="82" y="819">Elective</text></g>
+<g fill="#2f6fed"><rect x="190" y="678" width="230" height="18" rx="4"/><rect x="190" y="740" width="215" height="18" rx="4"/><rect x="190" y="802" width="218" height="18" rx="4"/></g><g fill="#f59e0b"><rect x="190" y="701" width="187" height="12" rx="4"/><rect x="190" y="763" width="185" height="12" rx="4"/><rect x="190" y="825" width="120" height="12" rx="4"/></g>
+<g class="val"><text x="438" y="693">$24,279 avg billing</text><text x="438" y="755">$22,731 avg billing</text><text x="438" y="817">$23,039 avg billing</text><text x="438" y="711">15.62 day stay</text><text x="438" y="773">15.42 day stay</text><text x="438" y="835">9.97 day stay</text></g>
+<rect x="82" y="858" width="12" height="12" fill="#2f6fed"/><text x="102" y="869" class="foot">Average billing</text><rect x="230" y="858" width="12" height="12" fill="#f59e0b"/><text x="250" y="869" class="foot">Average stay (relative bar length)</text>
+<g class="lab"><text x="740" y="692">Medicare</text><text x="740" y="729">Cigna</text><text x="740" y="766">Aetna</text><text x="740" y="803">Blue Cross</text><text x="740" y="840">UnitedHealthcare</text></g>
+<g fill="#647ee8"><rect x="870" y="676" width="240" height="18" rx="4"/><rect x="870" y="713" width="192" height="18" rx="4"/><rect x="870" y="750" width="190" height="18" rx="4"/><rect x="870" y="787" width="185" height="18" rx="4"/><rect x="870" y="824" width="181" height="18" rx="4"/></g>
+<g class="val"><text x="1120" y="691">2,428</text><text x="1072" y="728">1,939</text><text x="1070" y="765">1,921</text><text x="1065" y="802">1,875</text><text x="1061" y="839">1,837</text></g>
+<text x="1170" y="690" class="ct">Age segments</text><rect x="1170" y="710" width="138" height="24" rx="5" fill="#2f6fed"/><rect x="1170" y="744" width="95" height="24" rx="5" fill="#12a88a"/><rect x="1170" y="778" width="77" height="24" rx="5" fill="#f59e0b"/>
+<g class="val"><text x="1170" y="854">Middle 4,444</text><text x="1170" y="875">Senior 3,071</text><text x="1170" y="896">Young 2,485</text></g>
+<text x="56" y="946" class="foot">Source: project analysis summaries. Synthetic, record-level data; descriptive comparisons only. Average billing is not reimbursement, cost, or profit.</text></svg>
