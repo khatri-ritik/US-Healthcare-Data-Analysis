@@ -1,4 +1,4 @@
-# 🇺🇸 US Healthcare Data Analysis | Excel Portfolio Project
+# US Healthcare Data Analysis | Excel Portfolio Project
 
 An end-to-end exploratory data analysis project using **Microsoft Excel** to examine 10,000 synthetic healthcare records. The analysis focuses on patient demographics, medical conditions, admission patterns, billing, insurance, and length of stay.
 
