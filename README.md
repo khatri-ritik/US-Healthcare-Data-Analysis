@@ -18,7 +18,7 @@ An exploratory analysis of a 10,000-record US healthcare dataset using Microsoft
 - KPI reporting and dashboard design
 - Exploratory data analysis and insight communication
 
-## Dashboard preview\n\n![Healthcare analysis dashboard](assets/healthcare_dashboard.svg)\n\n## Key insights graphic\n\n![Key findings](assets/key_insights.svg)\n\n## KPI snapshot
+## Dashboard preview\n\n![Healthcare analysis dashboard](assets/healthcare_dashboard.svg)\n\n## Key insights graphic\n\n![Key findings](assets/key_insights.svg)\n\n## KPI 
 | Metric | Result |
 |---|---:|
 | Records analyzed | 10,000 |
