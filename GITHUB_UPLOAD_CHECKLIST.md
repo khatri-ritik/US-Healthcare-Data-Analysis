@@ -2,9 +2,9 @@
 
 - [x] Create the public repository: `US-Healthcare-Data-Analysis`.
 - [x] Add the project README.
-- [ ] Upload the dashboard preview to `assets/healthcare_dashboard.png`.
-- [ ] Upload the key findings graphic to `assets/key_insights.png`.
-- [ ] Preview the README on GitHub and confirm both images render.
+- [x] Add the dashboard preview as `assets/healthcare_dashboard.svg`.
+- [x] Add the key findings graphic as `assets/key_insights.svg`.
+- [x] Add both image previews to the README; visually verify rendering in GitHub.
 - [ ] Before uploading the Excel workbook, verify that all patient names and identifiers are synthetic or fully anonymized and that you are authorized to publish the data.
 - [ ] If the workbook is safe to share, add it under a `data/` folder and update the README with its path.
 
